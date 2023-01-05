@@ -1,0 +1,23 @@
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_setup.py:_flush():76] Loading settings from C:\Users\10273\.config\wandb\settings
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_setup.py:_flush():76] Loading settings from C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\settings
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'C:/Users/10273/Desktop/大三下/计算摄像学/new/train.py'}
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_setup.py:_flush():76] Applying login settings: {'anonymous': 'must'}
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_init.py:_log_setup():428] Logging user logs to C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_125800-cu5sgkth\logs\debug.log
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_init.py:_log_setup():429] Logging internal logs to C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_125800-cu5sgkth\logs\debug-internal.log
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_init.py:init():462] calling init triggers
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [wandb_init.py:init():515] starting backend
+2022-05-18 12:58:00,547 INFO    MainThread:8504 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-05-18 12:58:00,557 INFO    MainThread:8504 [backend.py:ensure_launched():217] starting backend process...
+2022-05-18 12:58:00,638 INFO    MainThread:8504 [backend.py:ensure_launched():222] started backend process with pid: 19484
+2022-05-18 12:58:00,638 INFO    MainThread:8504 [wandb_init.py:init():525] backend started and connected
+2022-05-18 12:58:00,638 INFO    MainThread:8504 [wandb_init.py:init():596] updated telemetry
+2022-05-18 12:58:00,638 INFO    MainThread:8504 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-05-18 12:58:30,640 INFO    MainThread:8504 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2022-05-18 12:58:30,640 ERROR   MainThread:8504 [wandb_init.py:init():636] backend process timed out
+2022-05-18 12:58:30,640 ERROR   MainThread:8504 [wandb_init.py:init():647] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error

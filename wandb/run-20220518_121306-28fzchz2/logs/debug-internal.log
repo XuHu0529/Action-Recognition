@@ -1,0 +1,158 @@
+2022-05-18 12:13:07,400 INFO    MainThread:19288 [internal.py:wandb_internal():93] W&B internal server running at pid: 19288, started at: 2022-05-18 12:13:07.400527
+2022-05-18 12:13:07,400 INFO    WriterThread:19288 [datastore.py:open_for_write():75] open: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\run-28fzchz2.wandb
+2022-05-18 12:13:07,400 DEBUG   SenderThread:19288 [sender.py:send():232] send: header
+2022-05-18 12:13:07,400 DEBUG   SenderThread:19288 [sender.py:send():232] send: run
+2022-05-18 12:13:07,400 INFO    SenderThread:19288 [sender.py:_maybe_setup_resume():490] checking resume status for None/BARNet/28fzchz2
+2022-05-18 12:13:08,350 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: check_version
+2022-05-18 12:13:08,360 INFO    SenderThread:19288 [dir_watcher.py:__init__():197] watching files in: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files
+2022-05-18 12:13:08,360 INFO    SenderThread:19288 [sender.py:_start_run_threads():814] run started: 28fzchz2 with start time 1652847186
+2022-05-18 12:13:08,360 DEBUG   SenderThread:19288 [sender.py:send():232] send: summary
+2022-05-18 12:13:08,360 INFO    SenderThread:19288 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-18 12:13:08,360 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: check_version
+2022-05-18 12:13:08,552 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: run_start
+2022-05-18 12:13:08,563 DEBUG   HandlerThread:19288 [meta.py:__init__():35] meta init
+2022-05-18 12:13:08,563 DEBUG   HandlerThread:19288 [meta.py:__init__():49] meta init done
+2022-05-18 12:13:08,563 DEBUG   HandlerThread:19288 [meta.py:probe():209] probe
+2022-05-18 12:13:08,584 DEBUG   HandlerThread:19288 [git.py:repo():29] git repository is invalid
+2022-05-18 12:13:08,584 DEBUG   HandlerThread:19288 [meta.py:_save_pip():53] save pip
+2022-05-18 12:13:08,584 DEBUG   HandlerThread:19288 [meta.py:_save_pip():67] save pip done
+2022-05-18 12:13:08,584 DEBUG   HandlerThread:19288 [meta.py:probe():247] probe done
+2022-05-18 12:13:08,584 DEBUG   SenderThread:19288 [sender.py:send():232] send: files
+2022-05-18 12:13:08,584 INFO    SenderThread:19288 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-18 12:13:08,598 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-18 12:13:08,598 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: stop_status
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send():232] send: telemetry
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send():232] send: config
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send():232] send: telemetry
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send():232] send: exit
+2022-05-18 12:13:09,107 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:send_exit():368] handling exit code: 1
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:send_exit():370] handling runtime: 0
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:send_exit():376] send defer
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:09,107 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,107 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-18 12:13:09,107 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-18 12:13:09,107 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 1
+2022-05-18 12:13:09,107 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,107 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-18 12:13:09,214 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,214 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:09,214 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-18 12:13:09,214 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 2
+2022-05-18 12:13:09,214 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:09,214 DEBUG   SenderThread:19288 [sender.py:send():232] send: stats
+2022-05-18 12:13:09,214 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,214 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-18 12:13:09,214 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,214 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-18 12:13:09,214 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 3
+2022-05-18 12:13:09,214 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,214 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-18 12:13:09,224 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,224 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-18 12:13:09,224 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 4
+2022-05-18 12:13:09,224 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,224 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-18 12:13:09,224 DEBUG   SenderThread:19288 [sender.py:send():232] send: summary
+2022-05-18 12:13:09,224 INFO    SenderThread:19288 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-18 12:13:09,225 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,225 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-18 12:13:09,225 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 5
+2022-05-18 12:13:09,225 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,225 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-18 12:13:09,225 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,225 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-18 12:13:09,320 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:09,363 INFO    Thread-11 :19288 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\output.log
+2022-05-18 12:13:09,363 INFO    Thread-11 :19288 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\wandb-summary.json
+2022-05-18 12:13:09,363 INFO    Thread-11 :19288 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\requirements.txt
+2022-05-18 12:13:09,363 INFO    Thread-11 :19288 [dir_watcher.py:_on_file_created():244] file/dir created: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\wandb-metadata.json
+2022-05-18 12:13:09,794 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 6
+2022-05-18 12:13:09,794 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:09,794 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:09,794 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-18 12:13:09,794 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:09,794 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-18 12:13:09,794 INFO    SenderThread:19288 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-18 12:13:09,896 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:09,917 INFO    Thread-15 :19288 [upload_job.py:push():132] Uploaded file C:\Users\10273\AppData\Local\Temp\tmpzl4xx5i3wandb\3vch479n-wandb-metadata.json
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:_on_file_modified():257] file/dir modified: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\config.yaml
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():342] scan: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():356] scan save: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\config.yaml config.yaml
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():356] scan save: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\output.log output.log
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():356] scan save: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\requirements.txt requirements.txt
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():356] scan save: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\wandb-metadata.json wandb-metadata.json
+2022-05-18 12:13:10,366 INFO    SenderThread:19288 [dir_watcher.py:finish():356] scan save: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\wandb-summary.json wandb-summary.json
+2022-05-18 12:13:10,376 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 7
+2022-05-18 12:13:10,376 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:10,376 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:10,376 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-18 12:13:10,376 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:10,376 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-18 12:13:10,376 INFO    SenderThread:19288 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-18 12:13:10,483 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:10,483 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:10,590 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:10,590 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:10,696 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:10,696 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:10,803 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:10,803 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:10,910 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:10,910 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,016 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,016 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,123 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,123 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,234 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,234 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,337 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,337 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,443 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,443 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,549 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,549 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,613 INFO    Thread-16 :19288 [upload_job.py:push():132] Uploaded file C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\config.yaml
+2022-05-18 12:13:11,635 INFO    Thread-17 :19288 [upload_job.py:push():132] Uploaded file C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\output.log
+2022-05-18 12:13:11,656 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,656 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,741 INFO    Thread-19 :19288 [upload_job.py:push():132] Uploaded file C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\wandb-summary.json
+2022-05-18 12:13:11,752 INFO    Thread-18 :19288 [upload_job.py:push():132] Uploaded file C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\files\requirements.txt
+2022-05-18 12:13:11,763 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,763 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,870 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:11,870 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:11,955 INFO    Thread-10 :19288 [sender.py:transition_state():389] send defer: 8
+2022-05-18 12:13:11,955 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:11,955 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-18 12:13:11,955 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:11,955 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-18 12:13:11,976 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:12,979 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 9
+2022-05-18 12:13:12,989 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:12,989 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:12,989 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-18 12:13:12,989 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:12,989 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-18 12:13:12,989 INFO    SenderThread:19288 [sender.py:transition_state():389] send defer: 10
+2022-05-18 12:13:12,989 DEBUG   SenderThread:19288 [sender.py:send():232] send: final
+2022-05-18 12:13:12,989 DEBUG   SenderThread:19288 [sender.py:send():232] send: footer
+2022-05-18 12:13:12,989 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: defer
+2022-05-18 12:13:12,989 INFO    HandlerThread:19288 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-18 12:13:12,989 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: defer
+2022-05-18 12:13:12,989 INFO    SenderThread:19288 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-18 12:13:13,096 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-18 12:13:13,096 DEBUG   SenderThread:19288 [sender.py:send_request():246] send_request: poll_exit
+2022-05-18 12:13:13,096 INFO    SenderThread:19288 [file_pusher.py:join():150] waiting for file pusher
+2022-05-18 12:13:14,525 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-18 12:13:14,525 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-18 12:13:14,525 DEBUG   HandlerThread:19288 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-18 12:13:14,525 INFO    HandlerThread:19288 [handler.py:finish():806] shutting down handler
+2022-05-18 12:13:14,995 INFO    WriterThread:19288 [datastore.py:close():279] close: C:\Users\10273\Desktop\大三下\计算摄像学\new\wandb\run-20220518_121306-28fzchz2\run-28fzchz2.wandb
+2022-05-18 12:13:15,421 INFO    SenderThread:19288 [sender.py:finish():1110] shutting down sender
+2022-05-18 12:13:15,421 INFO    SenderThread:19288 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-18 12:13:15,421 INFO    SenderThread:19288 [file_pusher.py:join():150] waiting for file pusher
+2022-05-18 12:13:15,422 INFO    MainThread:19288 [internal.py:handle_exit():80] Internal process exited

@@ -1,0 +1,19 @@
+Epoch 1/4:   0%|          | 0/1314419 [00:00<?, ?video/s]
+Traceback (most recent call last):
+  File "C:/Users/10273/Desktop/大三下/计算摄像学/new/train.py", line 145, in <module>
+    train_net(net, device=device)
+  File "C:/Users/10273/Desktop/大三下/计算摄像学/new/train.py", line 81, in train_net
+    for batch in train_loader:
+  File "D:\install\python\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "D:\install\python\lib\site-packages\torch\utils\data\dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\collate.py", line 172, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\collate.py", line 172, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\collate.py", line 138, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [2, 28800] at entry 0 and [1, 0] at entry 2

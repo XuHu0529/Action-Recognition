@@ -1,0 +1,21 @@
+Epoch 1/4:   0%|          | 0/1314419 [00:00<?, ?video/s]
+Traceback (most recent call last):
+  File "C:/Users/10273/Desktop/大三下/计算摄像学/new/train.py", line 142, in <module>
+    train_net(net, device=device)
+  File "C:/Users/10273/Desktop/大三下/计算摄像学/new/train.py", line 81, in train_net
+    for video, _, label in train_loader:
+  File "D:\install\python\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "D:\install\python\lib\site-packages\torch\utils\data\dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\install\python\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\install\python\lib\site-packages\torch\utils\data\dataset.py", line 471, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "D:\install\python\lib\site-packages\torchvision\datasets\ucf101.py", line 120, in __getitem__
+    video, audio, info, video_idx = self.video_clips.get_clip(idx)
+  File "D:\install\python\lib\site-packages\torchvision\datasets\video_utils.py", line 367, in get_clip
+    assert len(video) == self.num_frames, f"{video.shape} x {self.num_frames}"
+AssertionError: torch.Size([17, 240, 320, 3]) x 16

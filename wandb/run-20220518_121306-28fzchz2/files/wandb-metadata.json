@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2022-05-18T04:13:08.563466",
+    "startedAt": "2022-05-18T04:13:06.173809",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/10273/Desktop/\u5927\u4e09\u4e0b/\u8ba1\u7b97\u6444\u50cf\u5b66/new/train.py",
+    "codePath": "train.py",
+    "host": "LAPTOP-FHHTPCTT",
+    "username": "10273",
+    "executable": "D:\\install\\python\\python.exe"
+}
